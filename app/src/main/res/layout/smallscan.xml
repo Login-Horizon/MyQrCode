@@ -29,6 +29,15 @@
         app:zxing_preview_scaling_strategy="fitXY"
         android:layout_alignParentStart="true" />
 
+    <com.journeyapps.barcodescanner.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#80000000"/>
+
+
+
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
